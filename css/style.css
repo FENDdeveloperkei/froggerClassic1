@@ -25,3 +25,15 @@ h2 {
     color: #fefefe;
 }
 
+
+/*Media query for responsiveness*/
+@media screen and (max-width: 450px){
+    header, .score-panel, .deck{
+        display: flex;
+        justify-content: space-between;
+    }
+    .deck{
+    height: auto;
+    max-width: 100%;
+    }
+}
