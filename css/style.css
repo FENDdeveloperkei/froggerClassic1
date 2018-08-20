@@ -1,7 +1,10 @@
 body {
     text-align: center;
-    background-color: #20B2AA;
     font-family: Lato, sans-serif;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 160px 50px;
+    background: linear-gradient(160deg, #8F47B3 0%, #fefefe 60%, #20B2AA 100%);
 }
 
 .container {
